@@ -15,6 +15,8 @@ For all future steps, open the MSYS2 x64 shell
 ### Step 3: Install Build Tools (Choose default/all for options)
 #### pacman -S mingw-w64-x86_64-toolchain base-devel 
 
+### Step 4: Install gtkmm
+#### pacman -S mingw-w64-x86_64-gtkmm3
 
 ## Optional - install extra third party software
 
