@@ -57,7 +57,7 @@ void on_open_clicked()
 			left_image_pix = Gdk::Pixbuf::create_from_file(filename);
 			right_image_pix = Gdk::Pixbuf::create_from_file(filename);
 			
-			std::cout << *left_image_pix << std::endl;
+			//std::cout << *left_image_pix << std::endl;
 			//for (int row=0; r < sizeof(left_image_pix); 
 			//left_image->gtk_image_set_from_file(filename);
 			//right_image->gtk_image_set_from_file(filename);
