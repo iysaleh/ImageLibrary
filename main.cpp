@@ -10,6 +10,7 @@
 #include "imlib.h"
 //API Reference:
 //https://developer.gnome.org/gtkmm-tutorial/stable/index.html.en
+//https://developer.gnome.org/gtkmm/stable/classGtk_1_1Image.html
 
 //Global Variables
 Gtk::Image* left_image = 0;
@@ -56,6 +57,8 @@ void on_open_clicked()
 			std::cout << filename << std::endl;
 			left_image_pix = Gdk::Pixbuf::create_from_file(filename);
 			right_image_pix = Gdk::Pixbuf::create_from_file(filename);
+			left_image->set(left_image_pix);
+			right_image->set(right_image_pix);
 			
 			//std::cout << *left_image_pix << std::endl;
 			//for (int row=0; r < sizeof(left_image_pix); 
