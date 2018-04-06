@@ -5,7 +5,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <sigc++/sigc++.h>
-#include <png.h>
+//#include <png.h>
 
 #include "imlib.h"
 //API Reference:

@@ -25,3 +25,17 @@ For all future steps, open the MSYS2 x64 shell
 
 ### Install git
 #### pacman -S git
+
+## Instructions to Setup Development Environment On Linux
+
+### Step 1: Install Gtk3 Dev
+
+#### sudo apt-get install libgtk-3-dev
+
+### Step 2: Install Glade
+
+#### sudo apt-get install glade
+
+### Step 3: Install gtkmm3
+
+#### sudo apt-get install libgtkmm-3.0-dev
