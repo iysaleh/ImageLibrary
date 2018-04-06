@@ -11,6 +11,10 @@
 //API Reference:
 //https://developer.gnome.org/gtkmm-tutorial/stable/index.html.en
 //https://developer.gnome.org/gtkmm/stable/classGtk_1_1Image.html
+//https://developer.gnome.org/gtkmm/stable/classGdk_1_1Pixbuf.html
+
+//Interesting
+//https://stackoverflow.com/questions/46705040/display-opencv-cvmat-image-in-gtkmm
 
 //Global Variables
 Gtk::Image* left_image = 0;
@@ -85,7 +89,7 @@ int main(int argc, char* argv[])
 	Gtk::Window* window = 0;
 	builder->get_widget("ImageLibraryGUI",window);
 	
-	//Set Image widgets
+	//Set Global Image widgets
 	builder->get_widget("LeftImage",left_image);
 	builder->get_widget("RightImage",right_image);
 	
